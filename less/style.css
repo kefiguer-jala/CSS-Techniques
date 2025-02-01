@@ -106,7 +106,6 @@ p{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 .content .box {
   width: 500px;
@@ -119,6 +118,7 @@ p{
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 20px;
 
 }
 .content .box .imgBox {
@@ -126,11 +126,13 @@ p{
   border-radius: 10px;
   width: 90%;
   height: 300px;
-  /* display: flex;
-  float: inherit; */
+  display: flex;
+  float: inherit;
 }
+
 .content .box .imgBox img{
-  object-fit:contain;
+  height: 100%;
+  width: 100%;
 }
 
 footer {
